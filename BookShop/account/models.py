@@ -41,4 +41,4 @@ class User(AbstractBaseUser, PermissionsMixin):
         return self.is_superuser
 
     def __str__(self):
-        return self.email
+        return f'{self.email}, {self.password}'
