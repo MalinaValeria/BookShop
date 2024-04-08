@@ -5,4 +5,85 @@
 {% endblock %}
 {% block content %}
     {% include 'partial/header.html' %}
+    <div class="container mb-5">
+        <div class="card text-white my-3">
+            <img src="{% static 'img/main-books.jpg' %}" alt="Стопки книг" class="main-image">
+            <div class="image-card">
+                <h2 class="card-title">Удачная покупка!</h2>
+                <p class="m-0 d-flex align-items-center fs-5"><span class="fs-1 me-2">-20%</span> на книги при заказе от
+                    1000 рублей </p>
+                <p class="m-0 d-flex align-items-center fs-5"><span class="fs-1 me-2">-30%</span> на книги при заказе от
+                    2700 рублей</p>
+            </div>
+        </div>
+        <div>
+            <h1 class="mt-5">НОВИНКИ ЛИТЕРАТУРЫ</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-group">
+                            {% for book in new_books|slice:":6" %}
+                                <div class="card book-card">
+                                    <a href="#">
+                                        <img src="{{ book.image.url }}" class="book-image" alt="...">
+                                    </a>
+                                    <div class="book-card-body">
+                                        <h5 class="card-title">{{ book.price }}</h5>
+                                        <a href="#" class="m-0">{{ book.book.name }}</a>                                     
+                                        <small class="text-muted">{% for author in book.book.authors.all %}{{ author }}{% endfor %} </small>
+                                    </div>
+                                    <a href="#" class="btn text-white" style="background-color: #26A9E0">Купить</a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card-group">
+                            {% for book in new_books|slice:"6:12" %}
+                                <div class="card book-card">
+                                    <a href="#">
+                                        <img src="{{ book.image.url }}" class="book-image" alt="...">
+                                    </a>
+                                    <div class="book-card-body">
+                                        <h5 class="card-title">{{ book.price }}</h5>
+                                        <a href="#" class="m-0">{{ book.book.name }}</a>                                     
+                                        <small class="text-muted">{% for author in book.book.authors.all %}{{ author }}{% endfor %} </small>
+                                    </div>
+                                    <a href="#" class="btn text-white" style="background-color: #26A9E0">Купить</a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card-group">
+                            {% for book in new_books|slice:"12:" %}
+                                <div class="card book-card">
+                                    <a href="#">
+                                        <img src="{{ book.image.url }}" class="book-image" alt="...">
+                                    </a>
+                                    <div class="book-card-body">
+                                        <h5 class="card-title">{{ book.price }}</h5>
+                                        <a href="#" class="m-0">{{ book.book.name }}</a>
+                                        <small class="text-muted">{% for author in book.book.authors.all %}{{ author }}{% endfor %} </small>
+                                    </div>
+                                    <a href="#" class="btn text-white" style="background-color: #26A9E0">Купить</a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev carousel-arrow" type="button"
+                        data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-arrow" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
 {% endblock %}

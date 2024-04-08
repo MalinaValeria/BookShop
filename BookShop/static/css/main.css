@@ -1,4 +1,67 @@
-.header-text{
+.header-text {
     color: white !important;
     font-size: 0.8rem !important;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 32px;
+}
+
+.main-image {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.image-card {
+    background: linear-gradient(#1D96C9, 85%, transparent);
+    width: 30rem;
+    height: 13rem;
+    padding: 1rem;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 10px;
+}
+
+.book-card {
+    border: 0 !important;
+    margin: 1.5rem;
+    height: 516px;
+
+}
+
+.book-card-body{
+    flex: 1 1 auto;
+    padding: 1rem 0;
+}
+
+.book-image {
+    height: 280px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.carousel-arrow{
+    width: 5%!important;
+    height: 10%;
+    top:30% !important;
+    background-color: #1D96C9 !important;
+}
+
+
+
+@media screen and (width < 768px) {
+    .book-image {
+        height: 198px;
+
+    }
+}
+
+@media screen and (width < 540px) {
+    .book-image {
+        height: 148px;
+    }
 }
