@@ -51,6 +51,13 @@
     background-color: #1D96C9 !important;
 }
 
+.main-footer{
+    background-color: #ECF6FE;
+}
+
+.link-decoration{
+    text-decoration: none;
+}
 
 
 @media screen and (width < 768px) {

@@ -17,68 +17,127 @@
             </div>
         </div>
         <div>
-            <h1 class="mt-5">НОВИНКИ ЛИТЕРАТУРЫ</h1>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card-group">
-                            {% for book in new_books|slice:":6" %}
-                                <div class="card book-card">
-                                    <a href="#">
-                                        <img src="{{ book.image.url }}" class="book-image" alt="...">
-                                    </a>
-                                    <div class="book-card-body">
-                                        <h5 class="card-title">{{ book.price }}</h5>
-                                        <a href="#" class="m-0">{{ book.book.name }}</a>                                     
-                                        <small class="text-muted">{% for author in book.book.authors.all %}{{ author }}{% endfor %} </small>
-                                    </div>
-                                    <a href="#" class="btn text-white" style="background-color: #26A9E0">Купить</a>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card-group">
-                            {% for book in new_books|slice:"6:12" %}
-                                <div class="card book-card">
-                                    <a href="#">
-                                        <img src="{{ book.image.url }}" class="book-image" alt="...">
-                                    </a>
-                                    <div class="book-card-body">
-                                        <h5 class="card-title">{{ book.price }}</h5>
-                                        <a href="#" class="m-0">{{ book.book.name }}</a>                                     
-                                        <small class="text-muted">{% for author in book.book.authors.all %}{{ author }}{% endfor %} </small>
-                                    </div>
-                                    <a href="#" class="btn text-white" style="background-color: #26A9E0">Купить</a>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card-group">
-                            {% for book in new_books|slice:"12:" %}
-                                <div class="card book-card">
-                                    <a href="#">
-                                        <img src="{{ book.image.url }}" class="book-image" alt="...">
-                                    </a>
-                                    <div class="book-card-body">
-                                        <h5 class="card-title">{{ book.price }}</h5>
-                                        <a href="#" class="m-0">{{ book.book.name }}</a>
-                                        <small class="text-muted">{% for author in book.book.authors.all %}{{ author }}{% endfor %} </small>
-                                    </div>
-                                    <a href="#" class="btn text-white" style="background-color: #26A9E0">Купить</a>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
+            <h1 class="mt-5">ПОПУЛЯРНЫЕ КНИГИ</h1>
+            <div id="carouselPopularBooks" class="carousel slide" data-bs-interval="false" data-ride="carousel">
+                {#                <div class="carousel-inner">#}
+                {#                    {% for i in book_count %}#}
+                {#                        <div class="carousel-item {% if forloop.first %} active {% endif %}">#}
+                {#                            <div class="card-group">#}
+                {#                                {% for book in new_books|slice:i %}#}
+                {#                                    <div class="card book-card">#}
+                {#                                        <a href="#">#}
+                {#                                            <img src="{{ book.image.url }}" class="book-image" alt="...">#}
+                {#                                        </a>#}
+                {#                                        <div class="book-card-body">#}
+                {#                                            <h5 class="card-title">{{ book.price }}</h5>#}
+                {#                                            <a href="#" class="m-0 link-decoration">{{ book.book.name }}</a>#}
+                {#                                            <small class="text-muted d-block">#}
+                {#                                                {% for author in book.book.authors.all %}#}
+                {#                                                    {{ author }}{% if not forloop.last %},#}
+                {#                                                    {% endif %}{% endfor %} </small>#}
+                {#                                        </div>#}
+                {#                                        <a href="#" class="btn text-white"#}
+                {#                                           style="background-color: #26A9E0">Купить</a>#}
+                {#                                    </div>#}
+                {#                                {% endfor %}#}
+                {#                            </div>#}
+                {#                        </div>#}
+                {#                    {% endfor %}#}
+                {#                </div>#}
                 <button class="carousel-control-prev carousel-arrow" type="button"
-                        data-bs-target="#carouselExampleControls"
+                        data-bs-target="#carouselPopularBooks"
                         data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next carousel-arrow" type="button" data-bs-target="#carouselExampleControls"
+                <button class="carousel-control-next carousel-arrow" type="button"
+                        data-bs-target="#carouselPopularBooks"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <h1 class="mt-5">НОВИНКИ ЛИТЕРАТУРЫ</h1>
+            <div id="carouselNewBooks" class="carousel slide" data-bs-interval="false" data-ride="carousel">
+                <div class="carousel-inner">
+                    {% for i in book_count %}
+                        <div class="carousel-item {% if forloop.first %} active {% endif %}">
+                            <div class="card-group">
+                                {% for book in new_books|slice:i %}
+                                    <div class="card book-card">
+                                        <a href="#">
+                                            <img src="{{ book.image.url }}" class="book-image" alt="...">
+                                        </a>
+                                        <div class="book-card-body">
+                                            <h5 class="card-title">{{ book.price }}</h5>
+                                            <a href="#" class="m-0 link-decoration link-dark">{{ book.book.name }}</a>
+                                            <small class="text-muted d-block">
+                                                {% for author in book.book.authors.all %}
+                                                    {{ author }}{% if not forloop.last %},
+                                                    {% endif %}{% endfor %} </small>
+                                        </div>
+                                        <a href="#" class="btn text-white"
+                                           style="background-color: #26A9E0">Купить</a>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+                <button class="carousel-control-prev carousel-arrow" type="button"
+                        data-bs-target="#carouselNewBooks"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-arrow" type="button"
+                        data-bs-target="#carouselNewBooks"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <h1 class="mt-5">КНИГИ НА ИНОСТРАННОМ ЯЗЫКЕ</h1>
+            <div id="carouselForeignBooks" class="carousel slide" data-bs-interval="false" data-ride="carousel">
+                <div class="carousel-inner">
+                    {% for i in book_count %}
+                        <div class="carousel-item {% if forloop.first %} active {% endif %}">
+                            <div class="card-group">
+                                {% for book in foreign_books|slice:i %}
+                                    <div class="card book-card">
+                                        <a href="#">
+                                            <img src="{{ book.image.url }}" class="book-image" alt="...">
+                                        </a>
+                                        <div class="book-card-body">
+                                            <h5 class="card-title">{{ book.price }}</h5>
+                                            <a href="#" class="m-0 link-decoration link-dark">{{ book.book.name }}</a>
+                                            <small class="text-muted d-block">
+                                                {% for author in book.book.authors.all %}
+                                                    {{ author }}{% if not forloop.last %},
+                                                    {% endif %}{% endfor %} </small>
+                                        </div>
+                                        <a href="#" class="btn text-white"
+                                           style="background-color: #26A9E0">Купить</a>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+                <button class="carousel-control-prev carousel-arrow" type="button"
+                        data-bs-target="#carouselForeignBooks"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-arrow" type="button"
+                        data-bs-target="#carouselForeignBooks"
                         data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -86,4 +145,23 @@
             </div>
         </div>
     </div>
+    <footer class="main-footer">
+        <div class="py-5 d-flex">
+            <div class="w-75 px-5">
+                <h4 class="">Книжный интернет-магазин</h4>
+                <p class="text-secondary">
+                    Cеть книжных магазинов, успешно работающих в Москве и других регионах России.
+                </p>
+                <p class="text-secondary">А ещё это – крупный интернет-магазин книг. В нём вы можете заказывать книги в любое время 24 часа в
+                    сутки.</p>
+            </div>
+            <ul class="list-unstyled m-0">
+                <li class="py-1"><a href="#" class="link-secondary link-decoration">Доставка и оплата</a></li>
+                <li class="py-1"><a href="#" class="link-secondary link-decoration">Бонусная оплата</a></li>
+                <li class="py-1"><a href="#" class="link-secondary link-decoration">Вопросы и ответы</a></li>
+                <li class="py-1"><a href="#" class="link-secondary link-decoration">Обратная связь</a></li>
+                <li class="py-1"><a href="#" class="link-secondary link-decoration">Акции</a></li>
+            </ul>
+        </div>
+    </footer>
 {% endblock %}
