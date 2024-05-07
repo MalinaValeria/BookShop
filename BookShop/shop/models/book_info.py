@@ -27,6 +27,7 @@ class BookInfo(models.Model):
     type_of_cover = models.CharField(max_length=5, choices=TypeOfCover.choices, verbose_name='Тип обложки')
     circulation = models.IntegerField()
     age_limit = models.IntegerField(choices=AgeLimit.choices, verbose_name='Возрастное ограничение')
+    image = models.ImageField(upload_to='book_covers', null=True, blank=True)
     description = models.CharField(max_length=1000, verbose_name='Описание')
 
     def __str__(self):
