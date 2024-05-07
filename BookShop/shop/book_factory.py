@@ -1,3 +1,6 @@
+import os
+from random import choice
+
 import factory
 
 from shop.models import Category, Author, Publisher, Book, Series
@@ -39,8 +42,7 @@ class BookFactory(factory.django.DjangoModelFactory):
         model = 'shop.Book'
 
     name = factory.Faker('sentence', nb_words=2)
-    category = factory.Faker('random_element', elements=Category.objects.all())
-    author = factory.Faker('random_element', elements=Author.objects.all())
+    category = factory.Faker('random_element', elements=Category.objects.filter(parent_id__isnull=False))
 
 
 class BookInfoFactory(factory.django.DjangoModelFactory):
@@ -58,6 +60,7 @@ class BookInfoFactory(factory.django.DjangoModelFactory):
     circulation = factory.Faker('pyint', min_value=1, max_value=10000)
     age_limit = factory.Faker('random_element', elements=(0, 6, 12, 16, 18))
     description = factory.Faker('sentence', nb_words=10)
+    image = factory.Faker('random_element', elements=['book_covers/' + f for f in os.listdir('media/book_covers')])
 
 
 class BookAuthorFactory(factory.django.DjangoModelFactory):

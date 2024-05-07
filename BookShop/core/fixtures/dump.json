@@ -3,15 +3,15 @@
   "model": "shop.author",
   "pk": 1,
   "fields": {
-    "first_name": "Эраст",
-    "last_name": "Соколова"
+    "first_name": "Олимпиада",
+    "last_name": "Матвеев"
   }
 },
 {
   "model": "shop.author",
   "pk": 2,
   "fields": {
-    "first_name": "Панкрат",
+    "first_name": "Давыд",
     "last_name": "Павлова"
   }
 },
@@ -19,846 +19,1040 @@
   "model": "shop.author",
   "pk": 3,
   "fields": {
-    "first_name": "Рюрик",
-    "last_name": "Петров"
+    "first_name": "Георгий",
+    "last_name": "Самойлов"
   }
 },
 {
   "model": "shop.author",
   "pk": 4,
   "fields": {
-    "first_name": "Платон",
-    "last_name": "Ширяев"
+    "first_name": "Серафим",
+    "last_name": "Павлова"
   }
 },
 {
   "model": "shop.author",
   "pk": 5,
   "fields": {
-    "first_name": "Фортунат",
-    "last_name": "Шарова"
+    "first_name": "Натан",
+    "last_name": "Ефремова"
   }
 },
 {
   "model": "shop.author",
   "pk": 6,
   "fields": {
-    "first_name": "Ферапонт",
-    "last_name": "Беляева"
+    "first_name": "Сидор",
+    "last_name": "Агафонов"
   }
 },
 {
   "model": "shop.author",
   "pk": 7,
   "fields": {
-    "first_name": "Сократ",
-    "last_name": "Копылова"
+    "first_name": "Харитон",
+    "last_name": "Афанасьева"
   }
 },
 {
   "model": "shop.author",
   "pk": 8,
   "fields": {
-    "first_name": "Жанна",
-    "last_name": "Лапин"
+    "first_name": "Роман",
+    "last_name": "Галкина"
   }
 },
 {
   "model": "shop.author",
   "pk": 9,
   "fields": {
-    "first_name": "Ипполит",
-    "last_name": "Пахомов"
+    "first_name": "Оксана",
+    "last_name": "Белоусова"
   }
 },
 {
   "model": "shop.author",
   "pk": 10,
   "fields": {
-    "first_name": "Семен",
-    "last_name": "Тихонов"
+    "first_name": "Лев",
+    "last_name": "Кузьмин"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 11,
+  "fields": {
+    "first_name": "Савватий",
+    "last_name": "Морозов"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 12,
+  "fields": {
+    "first_name": "Боян",
+    "last_name": "Галкин"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 13,
+  "fields": {
+    "first_name": "Трифон",
+    "last_name": "Гуляев"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 14,
+  "fields": {
+    "first_name": "Владимир",
+    "last_name": "Ковалев"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 15,
+  "fields": {
+    "first_name": "Архип",
+    "last_name": "Аксенов"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 16,
+  "fields": {
+    "first_name": "Виктория",
+    "last_name": "Гаврилов"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 17,
+  "fields": {
+    "first_name": "Твердислав",
+    "last_name": "Гурьев"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 18,
+  "fields": {
+    "first_name": "Ольга",
+    "last_name": "Борисова"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 19,
+  "fields": {
+    "first_name": "Елисей",
+    "last_name": "Капустина"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 20,
+  "fields": {
+    "first_name": "Герасим",
+    "last_name": "Морозов"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 21,
+  "fields": {
+    "first_name": "Родион",
+    "last_name": "Фокина"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 22,
+  "fields": {
+    "first_name": "Мефодий",
+    "last_name": "Васильева"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 23,
+  "fields": {
+    "first_name": "Глеб",
+    "last_name": "Тарасов"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 24,
+  "fields": {
+    "first_name": "Пантелеймон",
+    "last_name": "Мясникова"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 25,
+  "fields": {
+    "first_name": "Яков",
+    "last_name": "Емельянов"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 26,
+  "fields": {
+    "first_name": "Афанасий",
+    "last_name": "Поляков"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 27,
+  "fields": {
+    "first_name": "Захар",
+    "last_name": "Дорофеева"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 28,
+  "fields": {
+    "first_name": "Ярополк",
+    "last_name": "Гущин"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 29,
+  "fields": {
+    "first_name": "Маргарита",
+    "last_name": "Бирюкова"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 30,
+  "fields": {
+    "first_name": "Валентина",
+    "last_name": "Виноградова"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 31,
+  "fields": {
+    "first_name": "Максим",
+    "last_name": "Дьячков"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 32,
+  "fields": {
+    "first_name": "Митофан",
+    "last_name": "Авдеева"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 33,
+  "fields": {
+    "first_name": "Ермил",
+    "last_name": "Блинова"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 34,
+  "fields": {
+    "first_name": "Татьяна",
+    "last_name": "Бурова"
+  }
+},
+{
+  "model": "shop.author",
+  "pk": 35,
+  "fields": {
+    "first_name": "Епифан",
+    "last_name": "Александрова"
   }
 },
 {
   "model": "shop.book",
-  "pk": 251,
+  "pk": 1,
   "fields": {
-    "name": "Единый.",
-    "category": 9
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 252,
-  "fields": {
-    "name": "Полностью.",
-    "category": 3
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 253,
-  "fields": {
-    "name": "Волк через.",
-    "category": 7
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 254,
-  "fields": {
-    "name": "Наслаждение встать.",
-    "category": 9
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 255,
-  "fields": {
-    "name": "Гулять вздрогнуть.",
-    "category": 14
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 256,
-  "fields": {
-    "name": "Пасть экзамен.",
-    "category": 14
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 257,
-  "fields": {
-    "name": "Адвокат терапия.",
-    "category": 8
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 258,
-  "fields": {
-    "name": "Приходить трясти.",
-    "category": 2
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 259,
-  "fields": {
-    "name": "Валюта скрытый.",
-    "category": 14
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 260,
-  "fields": {
-    "name": "Природа.",
-    "category": 9
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 261,
-  "fields": {
-    "name": "Совещание казнь.",
-    "category": 14
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 262,
-  "fields": {
-    "name": "Волк поговорить.",
-    "category": 10
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 263,
-  "fields": {
-    "name": "Металл.",
-    "category": 10
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 264,
-  "fields": {
-    "name": "Мягкий пламя.",
-    "category": 10
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 265,
-  "fields": {
-    "name": "Монета блин.",
-    "category": 7
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 266,
-  "fields": {
-    "name": "Пламя правильный.",
-    "category": 9
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 267,
-  "fields": {
-    "name": "Инфекция.",
-    "category": 8
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 268,
-  "fields": {
-    "name": "Деловой космос.",
-    "category": 9
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 269,
-  "fields": {
-    "name": "Костер.",
-    "category": 9
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 270,
-  "fields": {
-    "name": "Точно песня.",
+    "name": "Интеллектуальный тута.",
     "category": 6
   }
 },
 {
   "model": "shop.book",
-  "pk": 271,
+  "pk": 2,
   "fields": {
-    "name": "Новый.",
-    "category": 1
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 272,
-  "fields": {
-    "name": "Прежний.",
+    "name": "Полностью жестокий.",
     "category": 14
   }
 },
 {
   "model": "shop.book",
-  "pk": 273,
+  "pk": 3,
   "fields": {
-    "name": "Слать возникновение.",
-    "category": 6
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 274,
-  "fields": {
-    "name": "Холодно.",
-    "category": 14
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 275,
-  "fields": {
-    "name": "Страсть сходить.",
-    "category": 7
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 276,
-  "fields": {
-    "name": "Решетка неудобно.",
-    "category": 1
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 277,
-  "fields": {
-    "name": "Советовать советовать.",
+    "name": "Угроза.",
     "category": 10
   }
 },
 {
   "model": "shop.book",
-  "pk": 278,
+  "pk": 4,
   "fields": {
-    "name": "Легко страсть.",
-    "category": 3
+    "name": "Иной изба.",
+    "category": 14
   }
 },
 {
   "model": "shop.book",
-  "pk": 279,
+  "pk": 5,
   "fields": {
-    "name": "Совещание.",
+    "name": "Банда.",
+    "category": 14
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 6,
+  "fields": {
+    "name": "Нож теория.",
     "category": 8
   }
 },
 {
   "model": "shop.book",
-  "pk": 280,
+  "pk": 7,
   "fields": {
-    "name": "Неожиданно мягкий.",
-    "category": 10
+    "name": "Правление.",
+    "category": 6
   }
 },
 {
   "model": "shop.book",
-  "pk": 281,
+  "pk": 8,
   "fields": {
-    "name": "Степь.",
-    "category": 7
+    "name": "Гулять.",
+    "category": 6
   }
 },
 {
   "model": "shop.book",
-  "pk": 282,
+  "pk": 9,
   "fields": {
-    "name": "Головка.",
-    "category": 10
+    "name": "Услать командир.",
+    "category": 6
   }
 },
 {
   "model": "shop.book",
-  "pk": 283,
+  "pk": 10,
   "fields": {
-    "name": "Сверкать тревога.",
+    "name": "Войти сомнительный.",
+    "category": 8
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 11,
+  "fields": {
+    "name": "Дорогой.",
     "category": 15
   }
 },
 {
   "model": "shop.book",
-  "pk": 284,
+  "pk": 12,
   "fields": {
-    "name": "Эпоха инвалид.",
-    "category": 1
+    "name": "Заявление кпсс.",
+    "category": 9
   }
 },
 {
   "model": "shop.book",
-  "pk": 285,
+  "pk": 13,
   "fields": {
-    "name": "Неожиданно ставить.",
+    "name": "Нажать.",
+    "category": 15
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 14,
+  "fields": {
+    "name": "Дурацкий песенка.",
     "category": 10
   }
 },
 {
   "model": "shop.book",
-  "pk": 286,
+  "pk": 15,
   "fields": {
-    "name": "Страсть бабочка.",
-    "category": 8
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 287,
-  "fields": {
-    "name": "Выдержать.",
+    "name": "Табак пропаганда.",
     "category": 7
   }
 },
 {
   "model": "shop.book",
-  "pk": 288,
+  "pk": 16,
   "fields": {
-    "name": "Шлем оборот.",
-    "category": 3
-  }
-},
-{
-  "model": "shop.book",
-  "pk": 289,
-  "fields": {
-    "name": "Указанный провинция.",
+    "name": "Горький встать.",
     "category": 6
   }
 },
 {
   "model": "shop.book",
-  "pk": 290,
+  "pk": 17,
+  "fields": {
+    "name": "Нож.",
+    "category": 15
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 18,
+  "fields": {
+    "name": "Пространство.",
+    "category": 7
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 19,
+  "fields": {
+    "name": "Кожа холодно.",
+    "category": 9
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 20,
+  "fields": {
+    "name": "Материя.",
+    "category": 14
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 21,
+  "fields": {
+    "name": "Товар четыре.",
+    "category": 8
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 22,
+  "fields": {
+    "name": "Близко анализ.",
+    "category": 10
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 23,
+  "fields": {
+    "name": "Чем.",
+    "category": 15
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 24,
+  "fields": {
+    "name": "Бетонный.",
+    "category": 8
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 25,
+  "fields": {
+    "name": "Пол.",
+    "category": 10
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 26,
+  "fields": {
+    "name": "Житель.",
+    "category": 9
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 27,
+  "fields": {
+    "name": "Свежий помимо.",
+    "category": 9
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 28,
+  "fields": {
+    "name": "Выразить плод.",
+    "category": 9
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 29,
+  "fields": {
+    "name": "Манера дошлый.",
+    "category": 15
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 30,
+  "fields": {
+    "name": "Полюбить.",
+    "category": 15
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 31,
+  "fields": {
+    "name": "Трясти.",
+    "category": 7
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 32,
+  "fields": {
+    "name": "Налоговый функция.",
+    "category": 9
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 33,
   "fields": {
     "name": "Возможно.",
-    "category": 1
+    "category": 6
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 34,
+  "fields": {
+    "name": "Ремень.",
+    "category": 10
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 35,
+  "fields": {
+    "name": "Мусор.",
+    "category": 15
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 36,
+  "fields": {
+    "name": "Прежний ручей.",
+    "category": 7
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 37,
+  "fields": {
+    "name": "Приличный хлеб.",
+    "category": 7
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 38,
+  "fields": {
+    "name": "Ученый.",
+    "category": 7
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 39,
+  "fields": {
+    "name": "Упорно.",
+    "category": 7
+  }
+},
+{
+  "model": "shop.book",
+  "pk": 40,
+  "fields": {
+    "name": "Развернуться.",
+    "category": 14
   }
 },
 {
   "model": "shop.bookauthor",
-  "pk": 51,
-  "fields": {
-    "book": 270,
-    "author": 6
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 52,
-  "fields": {
-    "book": 276,
-    "author": 2
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 53,
-  "fields": {
-    "book": 257,
-    "author": 7
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 54,
-  "fields": {
-    "book": 255,
-    "author": 3
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 56,
-  "fields": {
-    "book": 261,
-    "author": 9
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 57,
-  "fields": {
-    "book": 265,
-    "author": 10
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 58,
-  "fields": {
-    "book": 261,
-    "author": 5
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 62,
-  "fields": {
-    "book": 259,
-    "author": 8
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 63,
-  "fields": {
-    "book": 283,
-    "author": 7
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 64,
-  "fields": {
-    "book": 278,
-    "author": 4
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 66,
-  "fields": {
-    "book": 282,
-    "author": 6
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 72,
-  "fields": {
-    "book": 260,
-    "author": 8
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 73,
-  "fields": {
-    "book": 266,
-    "author": 2
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 74,
-  "fields": {
-    "book": 284,
-    "author": 5
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 78,
-  "fields": {
-    "book": 277,
-    "author": 6
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 81,
-  "fields": {
-    "book": 277,
-    "author": 6
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 83,
-  "fields": {
-    "book": 254,
-    "author": 9
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 86,
-  "fields": {
-    "book": 263,
-    "author": 2
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 87,
-  "fields": {
-    "book": 252,
-    "author": 6
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 91,
-  "fields": {
-    "book": 273,
-    "author": 5
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 92,
-  "fields": {
-    "book": 258,
-    "author": 5
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 95,
-  "fields": {
-    "book": 287,
-    "author": 2
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 96,
-  "fields": {
-    "book": 275,
-    "author": 9
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 97,
-  "fields": {
-    "book": 273,
-    "author": 5
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 98,
-  "fields": {
-    "book": 253,
-    "author": 1
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 102,
-  "fields": {
-    "book": 267,
-    "author": 8
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 105,
-  "fields": {
-    "book": 280,
-    "author": 10
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 107,
-  "fields": {
-    "book": 258,
-    "author": 9
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 109,
-  "fields": {
-    "book": 252,
-    "author": 8
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 112,
-  "fields": {
-    "book": 262,
-    "author": 2
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 116,
-  "fields": {
-    "book": 274,
-    "author": 4
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 117,
-  "fields": {
-    "book": 264,
-    "author": 3
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 118,
-  "fields": {
-    "book": 265,
-    "author": 6
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 126,
-  "fields": {
-    "book": 269,
-    "author": 7
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 129,
-  "fields": {
-    "book": 271,
-    "author": 7
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 134,
-  "fields": {
-    "book": 256,
-    "author": 5
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 135,
-  "fields": {
-    "book": 277,
-    "author": 3
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 138,
-  "fields": {
-    "book": 251,
-    "author": 2
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 139,
-  "fields": {
-    "book": 285,
-    "author": 6
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 140,
-  "fields": {
-    "book": 253,
-    "author": 3
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 141,
-  "fields": {
-    "book": 268,
-    "author": 5
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 142,
-  "fields": {
-    "book": 272,
-    "author": 7
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 144,
-  "fields": {
-    "book": 286,
-    "author": 4
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 146,
-  "fields": {
-    "book": 281,
-    "author": 4
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 147,
-  "fields": {
-    "book": 279,
-    "author": 8
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 149,
-  "fields": {
-    "book": 265,
-    "author": 8
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 151,
-  "fields": {
-    "book": 288,
-    "author": 10
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 152,
-  "fields": {
-    "book": 289,
-    "author": 1
-  }
-},
-{
-  "model": "shop.bookauthor",
-  "pk": 153,
-  "fields": {
-    "book": 290,
-    "author": 1
-  }
-},
-{
-  "model": "shop.publisher",
   "pk": 1,
   "fields": {
-    "name": "Морозов Групп"
+    "book": 6,
+    "author": 6
   }
 },
 {
-  "model": "shop.publisher",
+  "model": "shop.bookauthor",
   "pk": 2,
   "fields": {
-    "name": "Компания Луис Дрейфус Восток (Louis Dreyfus)"
+    "book": 18,
+    "author": 14
   }
 },
 {
-  "model": "shop.publisher",
+  "model": "shop.bookauthor",
   "pk": 3,
   "fields": {
-    "name": "ООО «Емельянов»"
+    "book": 27,
+    "author": 13
   }
 },
 {
-  "model": "shop.publisher",
+  "model": "shop.bookauthor",
   "pk": 4,
   "fields": {
-    "name": "Тетра Пак (Tetra Pak)"
+    "book": 18,
+    "author": 3
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 5,
+  "fields": {
+    "book": 4,
+    "author": 14
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 6,
+  "fields": {
+    "book": 24,
+    "author": 33
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 7,
+  "fields": {
+    "book": 21,
+    "author": 15
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 8,
+  "fields": {
+    "book": 5,
+    "author": 3
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 9,
+  "fields": {
+    "book": 8,
+    "author": 29
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 10,
+  "fields": {
+    "book": 14,
+    "author": 12
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 11,
+  "fields": {
+    "book": 32,
+    "author": 10
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 12,
+  "fields": {
+    "book": 2,
+    "author": 1
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 13,
+  "fields": {
+    "book": 7,
+    "author": 11
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 14,
+  "fields": {
+    "book": 30,
+    "author": 30
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 15,
+  "fields": {
+    "book": 34,
+    "author": 22
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 16,
+  "fields": {
+    "book": 39,
+    "author": 26
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 17,
+  "fields": {
+    "book": 35,
+    "author": 31
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 18,
+  "fields": {
+    "book": 16,
+    "author": 24
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 19,
+  "fields": {
+    "book": 36,
+    "author": 22
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 20,
+  "fields": {
+    "book": 1,
+    "author": 11
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 21,
+  "fields": {
+    "book": 5,
+    "author": 30
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 22,
+  "fields": {
+    "book": 38,
+    "author": 29
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 23,
+  "fields": {
+    "book": 15,
+    "author": 5
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 24,
+  "fields": {
+    "book": 33,
+    "author": 28
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 25,
+  "fields": {
+    "book": 25,
+    "author": 35
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 26,
+  "fields": {
+    "book": 20,
+    "author": 21
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 27,
+  "fields": {
+    "book": 17,
+    "author": 10
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 28,
+  "fields": {
+    "book": 10,
+    "author": 19
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 29,
+  "fields": {
+    "book": 19,
+    "author": 1
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 30,
+  "fields": {
+    "book": 15,
+    "author": 29
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 31,
+  "fields": {
+    "book": 1,
+    "author": 12
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 32,
+  "fields": {
+    "book": 38,
+    "author": 11
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 33,
+  "fields": {
+    "book": 29,
+    "author": 22
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 34,
+  "fields": {
+    "book": 31,
+    "author": 9
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 35,
+  "fields": {
+    "book": 26,
+    "author": 34
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 36,
+  "fields": {
+    "book": 28,
+    "author": 23
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 37,
+  "fields": {
+    "book": 23,
+    "author": 5
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 38,
+  "fields": {
+    "book": 5,
+    "author": 24
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 39,
+  "fields": {
+    "book": 31,
+    "author": 34
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 40,
+  "fields": {
+    "book": 26,
+    "author": 12
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 41,
+  "fields": {
+    "book": 22,
+    "author": 15
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 42,
+  "fields": {
+    "book": 9,
+    "author": 22
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 43,
+  "fields": {
+    "book": 23,
+    "author": 23
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 44,
+  "fields": {
+    "book": 35,
+    "author": 12
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 45,
+  "fields": {
+    "book": 40,
+    "author": 5
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 46,
+  "fields": {
+    "book": 3,
+    "author": 28
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 47,
+  "fields": {
+    "book": 12,
+    "author": 17
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 48,
+  "fields": {
+    "book": 11,
+    "author": 13
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 49,
+  "fields": {
+    "book": 13,
+    "author": 10
+  }
+},
+{
+  "model": "shop.bookauthor",
+  "pk": 50,
+  "fields": {
+    "book": 37,
+    "author": 22
   }
 },
 {
   "model": "shop.publisher",
-  "pk": 5,
+  "pk": 1,
   "fields": {
-    "name": "ОАО «Хохлова»"
+    "name": "Кириллова и партнеры"
+  }
+},
+{
+  "model": "shop.publisher",
+  "pk": 2,
+  "fields": {
+    "name": "ОАО «Горшкова»"
+  }
+},
+{
+  "model": "shop.publisher",
+  "pk": 3,
+  "fields": {
+    "name": "АО «Яковлева, Костина и Данилова»"
   }
 },
 {
   "model": "shop.series",
   "pk": 1,
   "fields": {
-    "name": "Пропаганда рис."
+    "name": "Висеть зарплата."
   }
 },
 {
   "model": "shop.series",
   "pk": 2,
-  "fields": {
-    "name": "Правление необычный."
-  }
-},
-{
-  "model": "shop.series",
-  "pk": 3,
   "fields": {
     "name": "Приличный."
   }
 },
 {
   "model": "shop.series",
+  "pk": 3,
+  "fields": {
+    "name": "Порода призыв."
+  }
+},
+{
+  "model": "shop.series",
   "pk": 4,
   "fields": {
-    "name": "Сохранять кидать."
+    "name": "Кидать палец."
   }
 },
 {
   "model": "shop.series",
   "pk": 5,
   "fields": {
-    "name": "Терапия."
+    "name": "Прощение."
   }
 },
 {
@@ -943,852 +1137,952 @@
 },
 {
   "model": "shop.bookinfo",
-  "pk": 101,
+  "pk": 461,
   "fields": {
-    "book": 262,
-    "price": "1902",
-    "publisher": 5,
-    "publication_year": 2022,
-    "series": 4,
-    "isbn": "978-1-177-45592-3",
-    "page_count": 436,
-    "type_of_cover": "hard",
-    "circulation": 6931,
-    "age_limit": 18,
-    "description": "Присесть оставить набор спорт спичка вообще подробность песенка обида."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 102,
-  "fields": {
-    "book": 254,
-    "price": "417",
-    "publisher": 3,
-    "publication_year": 1958,
-    "series": 3,
-    "isbn": "978-0-88846-396-8",
-    "page_count": 604,
-    "type_of_cover": "hard",
-    "circulation": 6199,
-    "age_limit": 12,
-    "description": "Грустный сходить тревога развитый правильный подземный эпоха девка спешить зарплата присесть инфекция правый."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 103,
-  "fields": {
-    "book": 279,
-    "price": "4456",
-    "publisher": 5,
-    "publication_year": 1921,
-    "series": 2,
-    "isbn": "978-0-13-922939-8",
-    "page_count": 367,
-    "type_of_cover": "hard",
-    "circulation": 5581,
-    "age_limit": 18,
-    "description": "Тусклый перебивать близко вывести приятель одиннадцать бочок жидкий."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 104,
-  "fields": {
-    "book": 290,
-    "price": "6705",
-    "publisher": 5,
-    "publication_year": 2008,
+    "book": 23,
+    "price": "4262",
+    "publisher": 1,
+    "publication_year": 1919,
     "series": 5,
-    "isbn": "978-0-8332-0416-5",
-    "page_count": 267,
+    "isbn": "978-1-322-60003-1",
+    "page_count": 647,
     "type_of_cover": "dutch",
-    "circulation": 9778,
+    "circulation": 392,
     "age_limit": 18,
-    "description": "Салон достоинство головной трясти мрачно более вперед ночь выразить темнеть прелесть ремень."
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Теория функция лететь покидать падаль дремать.",
+    "slug": "chem-461"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 105,
+  "pk": 462,
   "fields": {
-    "book": 261,
-    "price": "1425",
-    "publisher": 5,
-    "publication_year": 1985,
-    "series": 1,
-    "isbn": "978-0-933240-31-5",
-    "page_count": 625,
-    "type_of_cover": "dutch",
-    "circulation": 1772,
+    "book": 36,
+    "price": "2529",
+    "publisher": 1,
+    "publication_year": 1919,
+    "series": 3,
+    "isbn": "978-0-06-698148-2",
+    "page_count": 833,
+    "type_of_cover": "hard",
+    "circulation": 2232,
     "age_limit": 0,
-    "description": "Рот интернет бегать инструкция ход запретить потрясти сопровождаться порог процесс."
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Порода механический выбирать а поговорить валюта лапа.",
+    "slug": "prezhnij-ruchej-462"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 106,
+  "pk": 463,
   "fields": {
-    "book": 269,
-    "price": "6099",
-    "publisher": 1,
-    "publication_year": 1953,
-    "series": 1,
-    "isbn": "978-1-959684-48-0",
-    "page_count": 30,
-    "type_of_cover": "dutch",
-    "circulation": 840,
-    "age_limit": 12,
-    "description": "Возбуждение лапа изменение палец интернет костер светило трясти палец второй отметить."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 107,
-  "fields": {
-    "book": 267,
-    "price": "2607",
+    "book": 2,
+    "price": "9693",
     "publisher": 3,
-    "publication_year": 1994,
+    "publication_year": 1947,
     "series": 4,
-    "isbn": "978-1-183-88849-4",
-    "page_count": 25,
-    "type_of_cover": "dutch",
-    "circulation": 731,
-    "age_limit": 16,
-    "description": "Снимать еврейский сверкать кожа дурацкий кольцо граница."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 108,
-  "fields": {
-    "book": 285,
-    "price": "3904",
-    "publisher": 5,
-    "publication_year": 1983,
-    "series": 3,
-    "isbn": "978-1-9756-0098-3",
-    "page_count": 352,
-    "type_of_cover": "hard",
-    "circulation": 5592,
-    "age_limit": 12,
-    "description": "Светило тюрьма мрачно выражаться армейский парень наслаждение идея картинка покидать избегать оставить столетие."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 109,
-  "fields": {
-    "book": 268,
-    "price": "9147",
-    "publisher": 2,
-    "publication_year": 1946,
-    "series": 5,
-    "isbn": "978-0-7526-2037-4",
-    "page_count": 764,
-    "type_of_cover": "hard",
-    "circulation": 2830,
-    "age_limit": 16,
-    "description": "Увеличиваться промолчать серьезный ленинград порог миллиард."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 110,
-  "fields": {
-    "book": 251,
-    "price": "3749",
-    "publisher": 1,
-    "publication_year": 1918,
-    "series": 2,
-    "isbn": "978-1-142-39766-1",
-    "page_count": 95,
+    "isbn": "978-1-968053-11-6",
+    "page_count": 107,
     "type_of_cover": "soft",
-    "circulation": 2835,
-    "age_limit": 16,
-    "description": "Ход господь степь достоинство еврейский анализ блин что уронить."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 111,
-  "fields": {
-    "book": 263,
-    "price": "7018",
-    "publisher": 5,
-    "publication_year": 2018,
-    "series": 1,
-    "isbn": "978-1-5091-3961-3",
-    "page_count": 737,
-    "type_of_cover": "dutch",
-    "circulation": 2772,
-    "age_limit": 18,
-    "description": "Банк редактор триста дорогой ломать рабочий вскинуть."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 112,
-  "fields": {
-    "book": 256,
-    "price": "3505",
-    "publisher": 1,
-    "publication_year": 2004,
-    "series": 2,
-    "isbn": "978-1-67584-496-0",
-    "page_count": 838,
-    "type_of_cover": "dutch",
-    "circulation": 4299,
-    "age_limit": 12,
-    "description": "Исследование нервно ночь сутки рот карандаш волк кожа."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 113,
-  "fields": {
-    "book": 286,
-    "price": "8520",
-    "publisher": 1,
-    "publication_year": 2016,
-    "series": 4,
-    "isbn": "978-1-71498-011-6",
-    "page_count": 220,
-    "type_of_cover": "soft",
-    "circulation": 724,
-    "age_limit": 16,
-    "description": "Пятеро освободить слишком труп выразить приятель."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 114,
-  "fields": {
-    "book": 287,
-    "price": "6514",
-    "publisher": 4,
-    "publication_year": 2014,
-    "series": 1,
-    "isbn": "978-1-219-49846-8",
-    "page_count": 721,
-    "type_of_cover": "dutch",
-    "circulation": 1631,
-    "age_limit": 12,
-    "description": "Слишком спалить головной мгновение через господь рассуждение прощение носок металл."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 115,
-  "fields": {
-    "book": 274,
-    "price": "7475",
-    "publisher": 2,
-    "publication_year": 1948,
-    "series": 2,
-    "isbn": "978-0-06-711066-9",
-    "page_count": 245,
-    "type_of_cover": "soft",
-    "circulation": 1949,
-    "age_limit": 12,
-    "description": "Висеть выразить сомнительный дыхание трясти выразить."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 116,
-  "fields": {
-    "book": 288,
-    "price": "7461",
-    "publisher": 3,
-    "publication_year": 1990,
-    "series": 3,
-    "isbn": "978-1-06-216617-0",
-    "page_count": 230,
-    "type_of_cover": "hard",
-    "circulation": 4805,
-    "age_limit": 18,
-    "description": "Премьера болото свежий разнообразный место лиловый новый указанный."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 117,
-  "fields": {
-    "book": 289,
-    "price": "5577",
-    "publisher": 4,
-    "publication_year": 1937,
-    "series": 4,
-    "isbn": "978-1-192-51741-5",
-    "page_count": 628,
-    "type_of_cover": "hard",
-    "circulation": 2501,
-    "age_limit": 0,
-    "description": "Написать тревога космос военный выражаться ручей кидать тяжелый."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 118,
-  "fields": {
-    "book": 263,
-    "price": "823",
-    "publisher": 4,
-    "publication_year": 1985,
-    "series": 3,
-    "isbn": "978-1-83661-333-6",
-    "page_count": 485,
-    "type_of_cover": "soft",
-    "circulation": 4418,
-    "age_limit": 18,
-    "description": "Солнце дорогой триста дьявол крыса да низкий заявление умолять правый ручей расстегнуть."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 119,
-  "fields": {
-    "book": 278,
-    "price": "2935",
-    "publisher": 2,
-    "publication_year": 2006,
-    "series": 5,
-    "isbn": "978-1-219-36714-6",
-    "page_count": 789,
-    "type_of_cover": "hard",
-    "circulation": 4524,
+    "circulation": 5302,
     "age_limit": 6,
-    "description": "Единый полностью подземный сустав оборот тута правление кидать дрогнуть."
+    "image": "book_covers/3024677-2.jpg",
+    "description": "Ручей приходить академик полевой равнодушный поставить тревога результат правильный.",
+    "slug": "polnostyu-zhestokij-463"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 120,
+  "pk": 464,
   "fields": {
-    "book": 266,
-    "price": "3972",
-    "publisher": 4,
-    "publication_year": 1918,
-    "series": 2,
-    "isbn": "978-1-888947-47-2",
-    "page_count": 156,
-    "type_of_cover": "hard",
-    "circulation": 4216,
-    "age_limit": 16,
-    "description": "Успокоиться бригада хлеб пища заложить банк бабочка нож."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 121,
-  "fields": {
-    "book": 272,
-    "price": "6423",
-    "publisher": 3,
-    "publication_year": 1927,
-    "series": 2,
-    "isbn": "978-0-232-52389-8",
-    "page_count": 944,
-    "type_of_cover": "soft",
-    "circulation": 7139,
-    "age_limit": 6,
-    "description": "Пересечь космос пасть художественный прощение ответить расстегнуть палка неожиданно."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 122,
-  "fields": {
-    "book": 273,
-    "price": "241",
-    "publisher": 4,
-    "publication_year": 2016,
+    "book": 13,
+    "price": "4071",
+    "publisher": 1,
+    "publication_year": 1950,
     "series": 1,
-    "isbn": "978-0-9721577-7-3",
-    "page_count": 251,
+    "isbn": "978-1-61987-190-8",
+    "page_count": 581,
     "type_of_cover": "soft",
-    "circulation": 5655,
+    "circulation": 7611,
     "age_limit": 18,
-    "description": "Успокоиться приятель инструкция добиться подземный природа сутки заложить заработать набор."
+    "image": "book_covers/3031310-2.jpg",
+    "description": "Ярко материя какой порог интеллектуальный штаб премьера.",
+    "slug": "nazhat-464"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 123,
+  "pk": 465,
   "fields": {
-    "book": 281,
-    "price": "7350",
-    "publisher": 2,
-    "publication_year": 1908,
-    "series": 5,
-    "isbn": "978-0-561-10671-7",
-    "page_count": 208,
-    "type_of_cover": "dutch",
-    "circulation": 9205,
-    "age_limit": 18,
-    "description": "Слишком мягкий рот металл роса сынок дыхание мгновение табак падать услать."
+    "book": 4,
+    "price": "9231",
+    "publisher": 3,
+    "publication_year": 1966,
+    "series": 1,
+    "isbn": "978-1-199-65368-0",
+    "page_count": 107,
+    "type_of_cover": "hard",
+    "circulation": 349,
+    "age_limit": 16,
+    "image": "book_covers/3029817-3.jpg",
+    "description": "Тута изображать домашний тусклый дорогой угол очередной столетие угодный угодный низкий.",
+    "slug": "inoj-izba-465"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 124,
+  "pk": 466,
   "fields": {
-    "book": 268,
-    "price": "4536",
-    "publisher": 5,
-    "publication_year": 2001,
+    "book": 14,
+    "price": "1304",
+    "publisher": 1,
+    "publication_year": 1907,
     "series": 4,
-    "isbn": "978-1-60453-174-9",
-    "page_count": 321,
-    "type_of_cover": "hard",
-    "circulation": 5818,
-    "age_limit": 16,
-    "description": "Мусор каюта дьявол белье виднеться карандаш плясать."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 125,
-  "fields": {
-    "book": 286,
-    "price": "2836",
-    "publisher": 3,
-    "publication_year": 2005,
-    "series": 3,
-    "isbn": "978-0-86158-771-1",
-    "page_count": 374,
-    "type_of_cover": "hard",
-    "circulation": 3807,
-    "age_limit": 12,
-    "description": "Серьезный реклама счастье темнеть что неудобно житель обида возникновение какой."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 126,
-  "fields": {
-    "book": 252,
-    "price": "9891",
-    "publisher": 1,
-    "publication_year": 2022,
-    "series": 3,
-    "isbn": "978-1-83399-396-7",
-    "page_count": 721,
-    "type_of_cover": "hard",
-    "circulation": 6722,
-    "age_limit": 18,
-    "description": "Каюта пропасть что умирать возможно важный чувство."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 127,
-  "fields": {
-    "book": 266,
-    "price": "5510",
-    "publisher": 1,
-    "publication_year": 1931,
-    "series": 1,
-    "isbn": "978-0-8257-7955-8",
-    "page_count": 211,
-    "type_of_cover": "hard",
-    "circulation": 5389,
-    "age_limit": 6,
-    "description": "Степь столетие жестокий торговля лиловый миг торопливый."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 128,
-  "fields": {
-    "book": 282,
-    "price": "5412",
-    "publisher": 1,
-    "publication_year": 1910,
-    "series": 1,
-    "isbn": "978-0-87341-066-3",
-    "page_count": 302,
-    "type_of_cover": "soft",
-    "circulation": 7748,
-    "age_limit": 16,
-    "description": "Налево опасность сомнительный господь понятный металл непривычный господь карман тревога мера."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 129,
-  "fields": {
-    "book": 287,
-    "price": "5764",
-    "publisher": 4,
-    "publication_year": 1980,
-    "series": 3,
-    "isbn": "978-0-366-42376-7",
-    "page_count": 981,
+    "isbn": "978-0-16-469099-6",
+    "page_count": 13,
     "type_of_cover": "dutch",
-    "circulation": 7148,
-    "age_limit": 18,
-    "description": "Жидкий следовательно бровь бетонный правление решетка ночь фонарик вскакивать салон ручей."
+    "circulation": 3442,
+    "age_limit": 16,
+    "image": "book_covers/3035026-2.jpg",
+    "description": "Успокоиться научить вытаскивать провинция привлекать прошептать намерение экзамен поймать интеллектуальный правый.",
+    "slug": "duratskij-pesenka-466"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 130,
+  "pk": 467,
   "fields": {
-    "book": 284,
-    "price": "1750",
-    "publisher": 3,
+    "book": 25,
+    "price": "7833",
+    "publisher": 1,
     "publication_year": 1957,
+    "series": 2,
+    "isbn": "978-0-7783-8921-7",
+    "page_count": 787,
+    "type_of_cover": "hard",
+    "circulation": 6783,
+    "age_limit": 0,
+    "image": "book_covers/3032160-3.jpg",
+    "description": "Триста социалистический правый солнце смеяться металл.",
+    "slug": "pol-467"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 468,
+  "fields": {
+    "book": 33,
+    "price": "2151",
+    "publisher": 1,
+    "publication_year": 1973,
     "series": 4,
-    "isbn": "978-1-350-42779-2",
-    "page_count": 856,
-    "type_of_cover": "hard",
-    "circulation": 9556,
-    "age_limit": 18,
-    "description": "Теория житель наступать заведение радость о потом табак премьера дыхание приятель витрина."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 131,
-  "fields": {
-    "book": 253,
-    "price": "5741",
-    "publisher": 3,
-    "publication_year": 1938,
-    "series": 3,
-    "isbn": "978-0-472-72411-6",
-    "page_count": 910,
-    "type_of_cover": "hard",
-    "circulation": 7379,
-    "age_limit": 18,
-    "description": "Порядок головка более зачем угроза наткнуться."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 132,
-  "fields": {
-    "book": 277,
-    "price": "2819",
-    "publisher": 4,
-    "publication_year": 2000,
-    "series": 4,
-    "isbn": "978-1-05-696050-0",
-    "page_count": 127,
+    "isbn": "978-0-326-86389-3",
+    "page_count": 687,
     "type_of_cover": "dutch",
-    "circulation": 3776,
-    "age_limit": 18,
-    "description": "Деловой а танцевать плавно задержать тысяча совещание решение куча функция."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 133,
-  "fields": {
-    "book": 257,
-    "price": "6553",
-    "publisher": 3,
-    "publication_year": 1930,
-    "series": 5,
-    "isbn": "978-1-68578-629-8",
-    "page_count": 49,
-    "type_of_cover": "dutch",
-    "circulation": 1846,
-    "age_limit": 0,
-    "description": "Изображать расстройство изображать налево неожиданно выбирать аж приличный порядок."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 134,
-  "fields": {
-    "book": 266,
-    "price": "3616",
-    "publisher": 5,
-    "publication_year": 1961,
-    "series": 3,
-    "isbn": "978-0-944007-91-4",
-    "page_count": 273,
-    "type_of_cover": "soft",
-    "circulation": 6211,
-    "age_limit": 0,
-    "description": "Затянуться смертельный ботинок нервно актриса разуметься солнце палка прошептать лиловый лапа пропасть."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 135,
-  "fields": {
-    "book": 260,
-    "price": "9922",
-    "publisher": 1,
-    "publication_year": 1912,
-    "series": 3,
-    "isbn": "978-1-269-91606-6",
-    "page_count": 817,
-    "type_of_cover": "dutch",
-    "circulation": 8094,
-    "age_limit": 12,
-    "description": "Коробка рота важный армейский голубчик падать академик прошептать монета применяться горький кожа аж."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 136,
-  "fields": {
-    "book": 283,
-    "price": "4493",
-    "publisher": 3,
-    "publication_year": 1912,
-    "series": 3,
-    "isbn": "978-0-06-459669-5",
-    "page_count": 48,
-    "type_of_cover": "dutch",
-    "circulation": 8916,
-    "age_limit": 18,
-    "description": "Художественный слишком трясти природа возможно кольцо эпоха новый бабочка."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 137,
-  "fields": {
-    "book": 275,
-    "price": "7870",
-    "publisher": 2,
-    "publication_year": 1906,
-    "series": 1,
-    "isbn": "978-0-502-80760-4",
-    "page_count": 204,
-    "type_of_cover": "dutch",
-    "circulation": 7509,
-    "age_limit": 0,
-    "description": "Парень плод ботинок заведение забирать приличный устройство растеряться запустить."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 138,
-  "fields": {
-    "book": 251,
-    "price": "1735",
-    "publisher": 1,
-    "publication_year": 1968,
-    "series": 2,
-    "isbn": "978-0-469-77051-5",
-    "page_count": 862,
-    "type_of_cover": "soft",
-    "circulation": 6649,
-    "age_limit": 16,
-    "description": "Торопливый вскинуть рис команда пространство мгновение манера интеллектуальный промолчать."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 139,
-  "fields": {
-    "book": 272,
-    "price": "28",
-    "publisher": 4,
-    "publication_year": 1922,
-    "series": 1,
-    "isbn": "978-0-932978-78-3",
-    "page_count": 703,
-    "type_of_cover": "hard",
-    "circulation": 1535,
-    "age_limit": 16,
-    "description": "Ягода тревога запретить волк сутки вряд зато."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 140,
-  "fields": {
-    "book": 264,
-    "price": "6973",
-    "publisher": 5,
-    "publication_year": 1918,
-    "series": 3,
-    "isbn": "978-0-02-295764-3",
-    "page_count": 8,
-    "type_of_cover": "dutch",
-    "circulation": 5881,
-    "age_limit": 0,
-    "description": "Господь чувство волк наткнуться дружно добиться монета тревога зачем жить багровый результат."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 141,
-  "fields": {
-    "book": 286,
-    "price": "105",
-    "publisher": 3,
-    "publication_year": 1910,
-    "series": 2,
-    "isbn": "978-0-03-904282-0",
-    "page_count": 167,
-    "type_of_cover": "hard",
-    "circulation": 3344,
-    "age_limit": 16,
-    "description": "Выбирать неправда естественный какой подробность сходить мимо спалить плод."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 142,
-  "fields": {
-    "book": 265,
-    "price": "6443",
-    "publisher": 1,
-    "publication_year": 1952,
-    "series": 2,
-    "isbn": "978-1-901754-41-4",
-    "page_count": 679,
-    "type_of_cover": "soft",
-    "circulation": 2500,
+    "circulation": 1861,
     "age_limit": 6,
-    "description": "Достоинство поколение социалистический июнь кидать горький хотеть деловой песенка сомнительный цепочка роскошный."
+    "image": "book_covers/3032160-3.jpg",
+    "description": "Дошлый уточнить задержать магазин опасность вперед смертельный тесно упор опасность вскакивать дальний.",
+    "slug": "vozmozhno-468"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 143,
+  "pk": 469,
   "fields": {
-    "book": 261,
-    "price": "1488",
-    "publisher": 5,
-    "publication_year": 1929,
-    "series": 5,
-    "isbn": "978-0-13-944445-6",
-    "page_count": 339,
-    "type_of_cover": "soft",
-    "circulation": 4760,
-    "age_limit": 0,
-    "description": "Приятель единый бок идея результат ночь голубчик смертельный возможно интеллектуальный запустить."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 144,
-  "fields": {
-    "book": 276,
-    "price": "4887",
-    "publisher": 2,
+    "book": 38,
+    "price": "8439",
+    "publisher": 1,
     "publication_year": 2002,
     "series": 3,
-    "isbn": "978-0-05-141444-5",
-    "page_count": 39,
-    "type_of_cover": "soft",
-    "circulation": 4586,
-    "age_limit": 6,
-    "description": "Трубка успокоиться кольцо поставить заработать коричневый уничтожение слишком опасность означать."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 145,
-  "fields": {
-    "book": 260,
-    "price": "4693",
-    "publisher": 5,
-    "publication_year": 2010,
-    "series": 4,
-    "isbn": "978-1-5486-2357-9",
-    "page_count": 513,
+    "isbn": "978-0-247-99870-4",
+    "page_count": 516,
     "type_of_cover": "hard",
-    "circulation": 8743,
-    "age_limit": 0,
-    "description": "Металл необычный отметить руководитель разнообразный человечек угроза бак."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 146,
-  "fields": {
-    "book": 251,
-    "price": "214",
-    "publisher": 3,
-    "publication_year": 1921,
-    "series": 5,
-    "isbn": "978-1-75284-271-1",
-    "page_count": 24,
-    "type_of_cover": "soft",
-    "circulation": 799,
-    "age_limit": 18,
-    "description": "Заплакать падаль банда совет банда зеленый."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 147,
-  "fields": {
-    "book": 270,
-    "price": "6650",
-    "publisher": 3,
-    "publication_year": 1985,
-    "series": 2,
-    "isbn": "978-0-931645-17-4",
-    "page_count": 901,
-    "type_of_cover": "soft",
-    "circulation": 7569,
-    "age_limit": 0,
-    "description": "Спешить волк заведение ручей результат встать умирать при смертельный уточнить костер крыса наступать."
-  }
-},
-{
-  "model": "shop.bookinfo",
-  "pk": 148,
-  "fields": {
-    "book": 267,
-    "price": "5591",
-    "publisher": 2,
-    "publication_year": 1958,
-    "series": 1,
-    "isbn": "978-1-936739-12-7",
-    "page_count": 502,
-    "type_of_cover": "dutch",
-    "circulation": 8847,
+    "circulation": 8922,
     "age_limit": 16,
-    "description": "Спешить какой висеть монета рай полоска желание головка исследование другой."
+    "image": "book_covers/3035026-2.jpg",
+    "description": "Выраженный карман господь достоинство вздрогнуть темнеть мягкий торговля падаль результат кольцо вариант цель.",
+    "slug": "uchenyij-469"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 149,
+  "pk": 470,
   "fields": {
-    "book": 262,
-    "price": "2250",
+    "book": 26,
+    "price": "3469",
     "publisher": 1,
-    "publication_year": 1961,
-    "series": 3,
-    "isbn": "978-0-86498-172-1",
-    "page_count": 205,
+    "publication_year": 2003,
+    "series": 1,
+    "isbn": "978-0-419-88664-8",
+    "page_count": 767,
     "type_of_cover": "dutch",
-    "circulation": 8240,
+    "circulation": 5804,
     "age_limit": 16,
-    "description": "Плод жить разуметься выразить беспомощный горький близко рабочий пламя."
+    "image": "book_covers/3033397-3.jpg",
+    "description": "Коричневый очередной некоторый дальний вряд бок.",
+    "slug": "zhitel-470"
   }
 },
 {
   "model": "shop.bookinfo",
-  "pk": 150,
+  "pk": 471,
   "fields": {
-    "book": 262,
-    "price": "8904",
+    "book": 3,
+    "price": "6238",
     "publisher": 3,
     "publication_year": 1965,
     "series": 1,
-    "isbn": "978-1-114-52345-6",
-    "page_count": 328,
-    "type_of_cover": "soft",
-    "circulation": 6706,
+    "isbn": "978-1-4436-2004-8",
+    "page_count": 606,
+    "type_of_cover": "dutch",
+    "circulation": 5582,
+    "age_limit": 0,
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Порода сохранять тысяча четыре теория вскинуть естественный космос приятель советовать головка трубка.",
+    "slug": "ugroza-471"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 472,
+  "fields": {
+    "book": 25,
+    "price": "7432",
+    "publisher": 1,
+    "publication_year": 1969,
+    "series": 4,
+    "isbn": "978-0-7234-7075-5",
+    "page_count": 576,
+    "type_of_cover": "dutch",
+    "circulation": 4956,
+    "age_limit": 18,
+    "image": "book_covers/3031310-2.jpg",
+    "description": "Оставить угроза дальний спорт юный неожиданно.",
+    "slug": "pol-472"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 473,
+  "fields": {
+    "book": 39,
+    "price": "5406",
+    "publisher": 2,
+    "publication_year": 2004,
+    "series": 2,
+    "isbn": "978-0-85811-589-7",
+    "page_count": 455,
+    "type_of_cover": "hard",
+    "circulation": 4981,
     "age_limit": 12,
-    "description": "Выраженный функция достоинство мальчишка степь посвятить."
+    "image": "book_covers/2965154-5.jpg",
+    "description": "Очередной ученый неправда тревога господь бригада коммунизм торопливый рота холодно анализ.",
+    "slug": "uporno-473"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 474,
+  "fields": {
+    "book": 35,
+    "price": "714",
+    "publisher": 2,
+    "publication_year": 2010,
+    "series": 5,
+    "isbn": "978-1-01-952941-6",
+    "page_count": 189,
+    "type_of_cover": "dutch",
+    "circulation": 6686,
+    "age_limit": 18,
+    "image": "book_covers/3032160-3.jpg",
+    "description": "Передо основание точно господь одиннадцать увеличиваться бетонный лапа эффект написать.",
+    "slug": "musor-474"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 475,
+  "fields": {
+    "book": 30,
+    "price": "5142",
+    "publisher": 2,
+    "publication_year": 1965,
+    "series": 2,
+    "isbn": "978-1-79749-733-4",
+    "page_count": 580,
+    "type_of_cover": "hard",
+    "circulation": 8285,
+    "age_limit": 12,
+    "image": "book_covers/3031310-2.jpg",
+    "description": "Торопливый пасть бегать промолчать тюрьма тусклый.",
+    "slug": "polyubit-475"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 476,
+  "fields": {
+    "book": 13,
+    "price": "4618",
+    "publisher": 1,
+    "publication_year": 1972,
+    "series": 4,
+    "isbn": "978-1-130-45267-9",
+    "page_count": 942,
+    "type_of_cover": "soft",
+    "circulation": 644,
+    "age_limit": 18,
+    "image": "book_covers/3032160-3.jpg",
+    "description": "Госпожа выразить советовать бригада заведение изображать за.",
+    "slug": "nazhat-476"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 477,
+  "fields": {
+    "book": 17,
+    "price": "8166",
+    "publisher": 3,
+    "publication_year": 1917,
+    "series": 3,
+    "isbn": "978-0-938313-82-3",
+    "page_count": 314,
+    "type_of_cover": "hard",
+    "circulation": 3597,
+    "age_limit": 6,
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Пятеро мальчишка оставить решетка появление славный кпсс.",
+    "slug": "nozh-477"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 478,
+  "fields": {
+    "book": 3,
+    "price": "176",
+    "publisher": 3,
+    "publication_year": 1977,
+    "series": 4,
+    "isbn": "978-1-64715-128-7",
+    "page_count": 621,
+    "type_of_cover": "dutch",
+    "circulation": 4879,
+    "age_limit": 18,
+    "image": "book_covers/3033397-3.jpg",
+    "description": "Расстегнуть зима возбуждение багровый рота слать какой тута издали дыхание грустный мелочь.",
+    "slug": "ugroza-478"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 479,
+  "fields": {
+    "book": 25,
+    "price": "2771",
+    "publisher": 3,
+    "publication_year": 1936,
+    "series": 2,
+    "isbn": "978-0-8171-5534-6",
+    "page_count": 620,
+    "type_of_cover": "hard",
+    "circulation": 1065,
+    "age_limit": 12,
+    "image": "book_covers/3035026-2.jpg",
+    "description": "Невозможно советовать недостаток единый порядок пространство.",
+    "slug": "pol-479"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 480,
+  "fields": {
+    "book": 21,
+    "price": "6594",
+    "publisher": 2,
+    "publication_year": 2024,
+    "series": 2,
+    "isbn": "978-1-84974-815-5",
+    "page_count": 291,
+    "type_of_cover": "hard",
+    "circulation": 9440,
+    "age_limit": 18,
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Материя ягода процесс следовательно страсть смеяться миф кузнец.",
+    "slug": "tovar-chetyire-480"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 481,
+  "fields": {
+    "book": 36,
+    "price": "6008",
+    "publisher": 3,
+    "publication_year": 1958,
+    "series": 2,
+    "isbn": "978-1-875195-80-0",
+    "page_count": 561,
+    "type_of_cover": "soft",
+    "circulation": 3208,
+    "age_limit": 0,
+    "image": "book_covers/2965154-5.jpg",
+    "description": "Вскинуть домашний второй единый спичка прошептать.",
+    "slug": "prezhnij-ruchej-481"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 482,
+  "fields": {
+    "book": 16,
+    "price": "2847",
+    "publisher": 3,
+    "publication_year": 1989,
+    "series": 2,
+    "isbn": "978-0-225-86194-5",
+    "page_count": 539,
+    "type_of_cover": "hard",
+    "circulation": 520,
+    "age_limit": 6,
+    "image": "book_covers/3026271-2.jpg",
+    "description": "Тюрьма ленинград увеличиваться аж спорт провал левый спалить очутиться дружно райком функция тута.",
+    "slug": "gorkij-vstat-482"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 483,
+  "fields": {
+    "book": 33,
+    "price": "627",
+    "publisher": 2,
+    "publication_year": 1947,
+    "series": 4,
+    "isbn": "978-1-59473-080-1",
+    "page_count": 533,
+    "type_of_cover": "soft",
+    "circulation": 6619,
+    "age_limit": 12,
+    "image": "book_covers/3035026-2.jpg",
+    "description": "Висеть сверкать слишком слишком назначить теория парень призыв ставить хозяйка низкий выбирать приятель.",
+    "slug": "vozmozhno-483"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 484,
+  "fields": {
+    "book": 39,
+    "price": "4242",
+    "publisher": 2,
+    "publication_year": 1960,
+    "series": 4,
+    "isbn": "978-0-11-609018-8",
+    "page_count": 974,
+    "type_of_cover": "hard",
+    "circulation": 7594,
+    "age_limit": 16,
+    "image": "book_covers/3035026-2.jpg",
+    "description": "Научить применяться нервно механический горький лапа конструкция при каюта светило сутки стакан изба.",
+    "slug": "uporno-484"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 485,
+  "fields": {
+    "book": 25,
+    "price": "2534",
+    "publisher": 1,
+    "publication_year": 1982,
+    "series": 5,
+    "isbn": "978-1-956663-43-3",
+    "page_count": 681,
+    "type_of_cover": "soft",
+    "circulation": 2737,
+    "age_limit": 16,
+    "image": "book_covers/3024677-2.jpg",
+    "description": "Рота левый магазин командир мимо полевой.",
+    "slug": "pol-485"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 486,
+  "fields": {
+    "book": 14,
+    "price": "8205",
+    "publisher": 2,
+    "publication_year": 1982,
+    "series": 4,
+    "isbn": "978-1-4534-0944-2",
+    "page_count": 600,
+    "type_of_cover": "soft",
+    "circulation": 2870,
+    "age_limit": 6,
+    "image": "book_covers/3033397-3.jpg",
+    "description": "Чувство заявление реклама рот премьера покидать труп.",
+    "slug": "duratskij-pesenka-486"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 487,
+  "fields": {
+    "book": 15,
+    "price": "9036",
+    "publisher": 1,
+    "publication_year": 2004,
+    "series": 3,
+    "isbn": "978-0-02-191104-2",
+    "page_count": 711,
+    "type_of_cover": "hard",
+    "circulation": 1164,
+    "age_limit": 12,
+    "image": "book_covers/3024677-2.jpg",
+    "description": "Эпоха оборот смеяться некоторый предоставить неожиданно около подземный эффект.",
+    "slug": "tabak-propaganda-487"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 488,
+  "fields": {
+    "book": 26,
+    "price": "2301",
+    "publisher": 3,
+    "publication_year": 2010,
+    "series": 1,
+    "isbn": "978-0-08-129547-2",
+    "page_count": 727,
+    "type_of_cover": "soft",
+    "circulation": 4863,
+    "age_limit": 18,
+    "image": "book_covers/3033397-3.jpg",
+    "description": "Коммунизм низкий сомнительный спорт июнь виднеться мелочь.",
+    "slug": "zhitel-488"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 489,
+  "fields": {
+    "book": 13,
+    "price": "4259",
+    "publisher": 2,
+    "publication_year": 1937,
+    "series": 2,
+    "isbn": "978-1-5063-0112-9",
+    "page_count": 370,
+    "type_of_cover": "dutch",
+    "circulation": 6914,
+    "age_limit": 6,
+    "image": "book_covers/3024677-2.jpg",
+    "description": "Выраженный налоговый изучить собеседник посидеть картинка помолчать бригада ломать войти цель правый.",
+    "slug": "nazhat-489"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 490,
+  "fields": {
+    "book": 14,
+    "price": "2448",
+    "publisher": 1,
+    "publication_year": 1901,
+    "series": 4,
+    "isbn": "978-0-607-42051-7",
+    "page_count": 808,
+    "type_of_cover": "soft",
+    "circulation": 6120,
+    "age_limit": 16,
+    "image": "book_covers/2965154-5.jpg",
+    "description": "Развернуться ведь ночь пропадать холодно выкинуть салон уточнить райком нож советовать солнце налоговый кпсс.",
+    "slug": "duratskij-pesenka-490"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 491,
+  "fields": {
+    "book": 22,
+    "price": "9704",
+    "publisher": 2,
+    "publication_year": 2011,
+    "series": 5,
+    "isbn": "978-1-960019-75-2",
+    "page_count": 613,
+    "type_of_cover": "soft",
+    "circulation": 1147,
+    "age_limit": 18,
+    "image": "book_covers/3024677-2.jpg",
+    "description": "Бабочка вчера спасть присесть июнь дрогнуть отдел волк магазин присесть порода указанный.",
+    "slug": "blizko-analiz-491"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 492,
+  "fields": {
+    "book": 24,
+    "price": "5041",
+    "publisher": 2,
+    "publication_year": 2001,
+    "series": 4,
+    "isbn": "978-0-304-50505-0",
+    "page_count": 261,
+    "type_of_cover": "hard",
+    "circulation": 676,
+    "age_limit": 12,
+    "image": "book_covers/3036791-1.jpg",
+    "description": "Следовательно актриса пища трубка штаб песня упорно зачем выраженный порода научить.",
+    "slug": "betonnyij-492"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 493,
+  "fields": {
+    "book": 28,
+    "price": "2235",
+    "publisher": 3,
+    "publication_year": 2009,
+    "series": 1,
+    "isbn": "978-0-89554-460-5",
+    "page_count": 77,
+    "type_of_cover": "hard",
+    "circulation": 9753,
+    "age_limit": 6,
+    "image": "book_covers/3031310-2.jpg",
+    "description": "Умолять кузнец смелый естественный скользить решение спорт сбросить выгнать жить человечек.",
+    "slug": "vyirazit-plod-493"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 494,
+  "fields": {
+    "book": 5,
+    "price": "7849",
+    "publisher": 1,
+    "publication_year": 2023,
+    "series": 3,
+    "isbn": "978-0-17-378553-9",
+    "page_count": 686,
+    "type_of_cover": "dutch",
+    "circulation": 6397,
+    "age_limit": 6,
+    "image": "book_covers/3032160-3.jpg",
+    "description": "Правильный юный слать что ремень лететь перебивать дорогой домашний сверкать беспомощный хлеб.",
+    "slug": "banda-494"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 495,
+  "fields": {
+    "book": 3,
+    "price": "2411",
+    "publisher": 2,
+    "publication_year": 1997,
+    "series": 1,
+    "isbn": "978-1-892501-23-3",
+    "page_count": 997,
+    "type_of_cover": "dutch",
+    "circulation": 1295,
+    "age_limit": 12,
+    "image": "book_covers/3032160-3.jpg",
+    "description": "Коробка жидкий дремать неожиданно разуметься потрясти разуметься передо торопливый второй изба.",
+    "slug": "ugroza-495"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 496,
+  "fields": {
+    "book": 24,
+    "price": "7610",
+    "publisher": 3,
+    "publication_year": 1960,
+    "series": 5,
+    "isbn": "978-1-337-16661-4",
+    "page_count": 270,
+    "type_of_cover": "dutch",
+    "circulation": 4307,
+    "age_limit": 18,
+    "image": "book_covers/3026271-2.jpg",
+    "description": "Заявление основание бочок более жидкий еврейский монета монета скользить развитый видимо важный.",
+    "slug": "betonnyij-496"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 497,
+  "fields": {
+    "book": 23,
+    "price": "9535",
+    "publisher": 1,
+    "publication_year": 1910,
+    "series": 3,
+    "isbn": "978-1-103-68521-9",
+    "page_count": 480,
+    "type_of_cover": "hard",
+    "circulation": 666,
+    "age_limit": 16,
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Народ инструкция плод командир темнеть поговорить скользить пробовать аж очередной.",
+    "slug": "chem-497"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 498,
+  "fields": {
+    "book": 33,
+    "price": "174",
+    "publisher": 3,
+    "publication_year": 2015,
+    "series": 5,
+    "isbn": "978-1-5415-9993-2",
+    "page_count": 945,
+    "type_of_cover": "hard",
+    "circulation": 2632,
+    "age_limit": 16,
+    "image": "book_covers/3036791-1.jpg",
+    "description": "Потянуться коллектив рис совещание блин бровь виднеться.",
+    "slug": "vozmozhno-498"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 499,
+  "fields": {
+    "book": 27,
+    "price": "9467",
+    "publisher": 1,
+    "publication_year": 1945,
+    "series": 5,
+    "isbn": "978-0-288-09392-5",
+    "page_count": 456,
+    "type_of_cover": "hard",
+    "circulation": 1099,
+    "age_limit": 0,
+    "image": "book_covers/2965154-5.jpg",
+    "description": "Сынок вздрагивать оставить конференция команда нервно бровь салон передо новый невыносимый процесс зеленый.",
+    "slug": "svezhij-pomimo-499"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 500,
+  "fields": {
+    "book": 29,
+    "price": "4642",
+    "publisher": 2,
+    "publication_year": 1959,
+    "series": 2,
+    "isbn": "978-0-16-036197-5",
+    "page_count": 510,
+    "type_of_cover": "soft",
+    "circulation": 9254,
+    "age_limit": 16,
+    "image": "book_covers/3029817-3.jpg",
+    "description": "Написать развернуться академик покидать второй реклама даль посвятить.",
+    "slug": "manera-doshlyij-500"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 501,
+  "fields": {
+    "book": 12,
+    "price": "123",
+    "publisher": 1,
+    "publication_year": 1982,
+    "series": 4,
+    "isbn": "978-1-05-434070-0",
+    "page_count": 869,
+    "type_of_cover": "dutch",
+    "circulation": 3319,
+    "age_limit": 12,
+    "image": "book_covers/2965154-5.jpg",
+    "description": "Дальний ягода цвет школьный провал деловой сохранять тревога рот оставить домашний зато опасность.",
+    "slug": "zayavlenie-kpss-501"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 502,
+  "fields": {
+    "book": 24,
+    "price": "824",
+    "publisher": 3,
+    "publication_year": 1947,
+    "series": 1,
+    "isbn": "978-1-379-91635-2",
+    "page_count": 744,
+    "type_of_cover": "soft",
+    "circulation": 3028,
+    "age_limit": 18,
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Человечек один уточнить а мальчишка цепочка наступать отъезд.",
+    "slug": "betonnyij-502"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 503,
+  "fields": {
+    "book": 9,
+    "price": "8967",
+    "publisher": 2,
+    "publication_year": 1961,
+    "series": 1,
+    "isbn": "978-0-546-74799-7",
+    "page_count": 480,
+    "type_of_cover": "hard",
+    "circulation": 391,
+    "age_limit": 16,
+    "image": "book_covers/3029817-3.jpg",
+    "description": "Миг район степь руководитель пересечь пространство экзамен засунуть слать исполнять триста девка забирать.",
+    "slug": "uslat-komandir-503"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 504,
+  "fields": {
+    "book": 27,
+    "price": "8656",
+    "publisher": 3,
+    "publication_year": 1927,
+    "series": 3,
+    "isbn": "978-0-917091-12-4",
+    "page_count": 728,
+    "type_of_cover": "soft",
+    "circulation": 657,
+    "age_limit": 18,
+    "image": "book_covers/2965154-5.jpg",
+    "description": "Идея идея слишком песня монета песенка сравнение.",
+    "slug": "svezhij-pomimo-504"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 505,
+  "fields": {
+    "book": 2,
+    "price": "5323",
+    "publisher": 3,
+    "publication_year": 1914,
+    "series": 1,
+    "isbn": "978-1-931847-18-6",
+    "page_count": 565,
+    "type_of_cover": "hard",
+    "circulation": 9161,
+    "age_limit": 16,
+    "image": "book_covers/2965154-5.jpg",
+    "description": "Редактор актриса сынок четыре палец пастух заложить вряд жить привлекать.",
+    "slug": "polnostyu-zhestokij-505"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 506,
+  "fields": {
+    "book": 17,
+    "price": "224",
+    "publisher": 2,
+    "publication_year": 1998,
+    "series": 1,
+    "isbn": "978-1-874663-39-3",
+    "page_count": 86,
+    "type_of_cover": "dutch",
+    "circulation": 2583,
+    "age_limit": 18,
+    "image": "book_covers/3036791-1.jpg",
+    "description": "Пересечь дружно заявление блин песня палец бетонный падать.",
+    "slug": "nozh-506"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 507,
+  "fields": {
+    "book": 3,
+    "price": "5608",
+    "publisher": 1,
+    "publication_year": 1970,
+    "series": 2,
+    "isbn": "978-1-918599-91-6",
+    "page_count": 22,
+    "type_of_cover": "soft",
+    "circulation": 5841,
+    "age_limit": 16,
+    "image": "book_covers/3033397-3.jpg",
+    "description": "Покидать решение песенка бабочка выраженный цепочка отъезд вряд песня кпсс.",
+    "slug": "ugroza-507"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 508,
+  "fields": {
+    "book": 25,
+    "price": "8722",
+    "publisher": 1,
+    "publication_year": 1942,
+    "series": 3,
+    "isbn": "978-0-8355-2424-7",
+    "page_count": 581,
+    "type_of_cover": "soft",
+    "circulation": 9432,
+    "age_limit": 6,
+    "image": "book_covers/3036791-1.jpg",
+    "description": "Что нож прелесть что инвалид роса второй некоторый.",
+    "slug": "pol-508"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 509,
+  "fields": {
+    "book": 28,
+    "price": "6941",
+    "publisher": 3,
+    "publication_year": 2001,
+    "series": 5,
+    "isbn": "978-0-355-25448-8",
+    "page_count": 209,
+    "type_of_cover": "hard",
+    "circulation": 6591,
+    "age_limit": 16,
+    "image": "book_covers/3028807-1.jpg",
+    "description": "Тревога прежний песня юный карман дорогой ленинград затянуться порт полоска страсть домашний.",
+    "slug": "vyirazit-plod-509"
+  }
+},
+{
+  "model": "shop.bookinfo",
+  "pk": 510,
+  "fields": {
+    "book": 19,
+    "price": "7045",
+    "publisher": 2,
+    "publication_year": 1980,
+    "series": 1,
+    "isbn": "978-1-298-63180-0",
+    "page_count": 620,
+    "type_of_cover": "dutch",
+    "circulation": 6789,
+    "age_limit": 18,
+    "image": "book_covers/3024677-2.jpg",
+    "description": "Вздрогнуть выражение разнообразный расстегнуть налево появление.",
+    "slug": "kozha-holodno-510"
   }
 }
 ]
