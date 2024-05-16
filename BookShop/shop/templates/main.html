@@ -25,12 +25,12 @@
                 {#                            <div class="card-group">#}
                 {#                                {% for book in new_books|slice:i %}#}
                 {#                                    <div class="card book-card">#}
-                {#                                        <a href="#">#}
+                {#                                        <a href="{% url 'book' slug=book.slug %}">#}
                 {#                                            <img src="{{ book.image.url }}" class="book-image" alt="...">#}
                 {#                                        </a>#}
                 {#                                        <div class="book-card-body">#}
                 {#                                            <h5 class="card-title">{{ book.price }}</h5>#}
-                {#                                            <a href="#" class="m-0 link-decoration">{{ book.book.name }}</a>#}
+                {#                                            <a href="{% url 'book' slug=book.slug %}" class="m-0 link-decoration">{{ book.book.name }}</a>#}
                 {#                                            <small class="text-muted d-block">#}
                 {#                                                {% for author in book.book.authors.all %}#}
                 {#                                                    {{ author }}{% if not forloop.last %},#}
@@ -67,12 +67,12 @@
                             <div class="card-group">
                                 {% for book in new_books|slice:i %}
                                     <div class="card book-card">
-                                        <a href="#">
+                                        <a href="{% url 'book' slug=book.slug %}">
                                             <img src="{{ book.image.url }}" class="book-image" alt="...">
                                         </a>
                                         <div class="book-card-body">
                                             <h5 class="card-title">{{ book.price }}</h5>
-                                            <a href="#" class="m-0 link-decoration link-dark">{{ book.book.name }}</a>
+                                            <a href="{% url 'book' slug=book.slug %}" class="m-0 link-decoration link-dark">{{ book.book.name }}</a>
                                             <small class="text-muted d-block">
                                                 {% for author in book.book.authors.all %}
                                                     {{ author }}{% if not forloop.last %},
@@ -110,12 +110,12 @@
                             <div class="card-group">
                                 {% for book in foreign_books|slice:i %}
                                     <div class="card book-card">
-                                        <a href="#">
+                                        <a href="{% url 'book' slug=book.slug %}">
                                             <img src="{{ book.image.url }}" class="book-image" alt="...">
                                         </a>
                                         <div class="book-card-body">
                                             <h5 class="card-title">{{ book.price }}</h5>
-                                            <a href="#" class="m-0 link-decoration link-dark">{{ book.book.name }}</a>
+                                            <a href="{% url 'book' slug=book.slug %}" class="m-0 link-decoration link-dark">{{ book.book.name }}</a>
                                             <small class="text-muted d-block">
                                                 {% for author in book.book.authors.all %}
                                                     {{ author }}{% if not forloop.last %},
