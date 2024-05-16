@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    <title>Регистрация</title>
+{% endblock %}
+{% block content %}
+    <div class="position-absolute top-50 start-50 translate-middle">
+            <div class="px-3 border border-info rounded py-5">
+                <div class="my-3">
+                    <h1 class="text-center">Книжный</h1>
+                </div>
+                {{ form_valid }}
+                <form method="post" class="px-4 pb-4 pt-2">
+                    {% csrf_token %}
+                    {% for field in form %}
+                        <div class="form-group ">
+                            {{ field.label }}
+                            {{ field }}
+                            {% if field.errors %}
+                                <div class="alert alert-danger mt-5">
+                                    {{ field.errors }}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                    {% if form.non_field_errors %}
+                        <div class="alert alert-danger mt-5">
+                            {{ form.non_field_errors }}
+                        </div>
+                    {% endif %}
+                    <button type="submit" class="btn mt-2 form-control text-white" style="background-color: #1D96C9">Зарегистрироваться</button>
+                </form>
+                <div class="mx-4">Есть аккаунт? <a href="{% url 'login' %}">Войти</a></div>
+            </div>
+    </div>
+{% endblock %}
