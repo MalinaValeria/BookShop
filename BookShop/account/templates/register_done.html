@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    <title>Регистрация завершена</title>
+{% endblock %}
+{% block content %}
+    <header style="background-color: #1D96C9">
+        <div class="container">
+            <a class="btn" href="{% url 'main' %}">
+                <span class="me-5 fs-1">Logo</span>
+            </a>
+        </div>
+    </header>
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="px-3 border border-info rounded py-5">
+            <p>Регистрация завершена. На Вашу почту отправлено письмо для активации аккаунта</p>
+        </div>
+    </div>
+{% endblock %}

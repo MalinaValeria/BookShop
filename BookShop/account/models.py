@@ -1,5 +1,6 @@
 from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
 from django.contrib.auth.models import PermissionsMixin
+from django.core.mail import send_mail
 from django.db import models
 
 
@@ -25,10 +26,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     first_name = models.CharField(max_length=50, verbose_name='Имя')
     last_name = models.CharField(max_length=50, verbose_name='Фамилия')
     is_staff = models.BooleanField(default=False)
-    is_active = models.BooleanField(default=True)
+    is_active = models.BooleanField(default=False)
     is_superuser = models.BooleanField(default=False)
     date_joined = models.DateTimeField(auto_now_add=True)
-    is_verified = models.BooleanField(default=False)
 
     objects = CustomUserManager()
 
@@ -40,6 +40,10 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     def has_module_perms(self, app_label):
         return self.is_superuser
+
+    def email_user(self, subject, message, from_email=None, **kwargs):
+        """Sends an email to this user."""
+        send_mail(subject, message, from_email, [self.email], **kwargs)
 
     def __str__(self):
         return f'{self.email}, {self.password}'

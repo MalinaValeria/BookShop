@@ -2,7 +2,7 @@ version: '3'
 # docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
 services:
 
-  postgres:
+  db:
     container_name: postgres_db
     image: postgres:14-alpine
     environment:
@@ -20,7 +20,7 @@ services:
     ports:
       - "8000:8000"
     depends_on:
-      - postgres
+      - db
     env_file:
       - .env
     volumes:
@@ -28,4 +28,37 @@ services:
     command: bash -c "python manage.py makemigrations --merge --noinput &&
       python manage.py migrate --noinput &&
       python manage.py runserver 0.0.0.0:8000"
+
+  redis:
+    container_name: redis_email
+    image: redis:5.0.3
+    depends_on:
+      - helper
+    sysctls:
+      - net.core.somaxconn=511
+
+
+  helper:
+    image: alpine
+    command: sh -c "echo never > /sys/kernel/mm/transparent_hugepage/enabled"
+    privileged: true
+
+
+  celery:
+    restart: always
+    container_name: celery
+    command: celery -A core.celery worker -l INFO
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - DB_HOST=postgres
+      - DB_NAME=BookDB
+      - DB_USER=postgres
+      - DB_PASS=postgres
+    depends_on:
+      - db
+      - redis
+      - app
+
 

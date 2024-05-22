@@ -60,7 +60,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'BookShop/shop/templates']
+        'DIRS': []
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'BookDB',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'postgres',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
@@ -147,3 +147,17 @@ REST_FRAMEWORK = {
 AUTH_USER_MODEL = 'account.User'
 
 BOOK_IMG_UPLOAD_PATH = 'book_img'
+
+CELERY_BROKER_URL = 'redis://redis:6379'
+CELERY_RESULT_BACKEND = 'redis://redis:6379'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+SITE_URL = 'http://127.0.0.1:8000'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'wollt1362@gmail.com'
+EMAIL_HOST_PASSWORD = 'znfexvybbrutlvjy'
+SERVER_EMAIL = EMAIL_HOST_USER
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
